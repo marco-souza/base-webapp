@@ -131,8 +131,6 @@ module.exports = {
             path.resolve(__dirname, ".."),
             path.resolve(__dirname, "../src"),
             path.resolve(__dirname, "../src/app"),
-            path.resolve(__dirname, "../src/app/assets"),
-            path.resolve(__dirname, "../src/app/commons"),
             path.resolve(__dirname, "../node_modules")
         ],
         extensions: [
