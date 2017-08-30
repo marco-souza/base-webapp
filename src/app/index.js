@@ -6,7 +6,7 @@
 import React from "react"
 
 type Props = {
-    children?: any
+    children: any
 }
 
 class Component extends React.Component<Props> {

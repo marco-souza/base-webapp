@@ -30,6 +30,9 @@ list_dev_pkgs="
     babel-preset-env
     babel-preset-react
     babel-preset-flow
+    jest-enzyme
+    enzyme
+    react-test-renderer
 "
 
 for i in $list_dev_pkgs;

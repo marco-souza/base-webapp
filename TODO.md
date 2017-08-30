@@ -2,11 +2,11 @@
 
 ## Configure
 
-- jest
 - eslint
 
 ## Done
 
+- jest
 - react
 - Webpack
 - flow
