@@ -7,6 +7,7 @@
 
 ## Done
 
+- react
 - Webpack
 - flow
 - babel

@@ -5,7 +5,7 @@ const
     CleanWebpackPlugin  = require("clean-webpack-plugin"),
     WriteFilePlugin     = require("write-file-webpack-plugin"),
     HtmlWebpackPlugin   = require("html-webpack-plugin"),
-    FlowtypePlugin      = require("flowtype-loader/plugin");
+    FlowtypePlugin      = require("flowtype-loader/plugin")
 
 module.exports = {
     entry: {
@@ -157,4 +157,4 @@ module.exports = {
         new CleanWebpackPlugin(appConfig.src.dest),
         new WriteFilePlugin()
     ]
-};
+}

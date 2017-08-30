@@ -3,9 +3,17 @@
  *
  * @flow
  */
-function asd(a: number) {
-    alert("maluco doido " + a)
-}
+import { createMountPoint } from "./app/commons/utils"
+import React from "react"
+import { render } from "react-dom"
 
-asd(1)
-// asd("1")
+(() => {
+    // First off all, create a app element
+    createMountPoint("app")
+
+    // Define routes component
+    const routes = <div>hellor</div>
+
+    // Start ReactJS
+    render(routes, document.getElementById("app"))
+})()
