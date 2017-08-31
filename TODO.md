@@ -1,11 +1,8 @@
 # TODO
 
-## Configure
-
-- eslint
-
 ## Done
 
+- eslint
 - jest
 - react
 - Webpack
