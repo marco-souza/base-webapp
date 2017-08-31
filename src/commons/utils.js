@@ -1,7 +1,5 @@
 /**
  * Utils file
- *
- * @flow
  */
 
 function createMountPoint(divId: string) {

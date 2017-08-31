@@ -1,9 +1,7 @@
 /**
  * Main file
- *
- * @flow
  */
-import { createMountPoint } from "./app/commons/utils"
+import { createMountPoint } from "./commons/utils"
 import { render } from "react-dom"
 import React from "react"
 import App from "./app"

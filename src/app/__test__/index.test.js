@@ -5,22 +5,23 @@ import App from "../index"
 
 describe("Test App Component", () => {
     it("Test with children element", () => {
-        const innerContent = <div className="test">Test</div>,
+        const
+            innerContent = <div className="test">Test</div>,
             app = <App>{innerContent}</App>
 
         expect(shallow(app).contains(innerContent)).toBe(true)
     })
 
     it("Test with children text", () => {
-        const innerContent = "masoq?",
+        const
+            innerContent = "masoq?",
             app = <App>{innerContent}</App>
 
         expect(shallow(app).contains(innerContent)).toBe(true)
     })
 
     it("Test without children", () => {
-        const
-            app = <App />
+        const app = <App />
 
         expect(shallow(app).prop("children")).toContain(undefined)
     })
